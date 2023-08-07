@@ -1,0 +1,38 @@
+.bg-custom{
+    background: #616161;
+}
+.navbar .nav-item .nav-link{
+    font-size: 20px;
+    color: white; 
+}
+.navbar-custom .nav-item:hover .nav-link{
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+.div-color{
+      background-image: linear-gradient(to left bottom, #454645, #6f706f, #9c9d9b, #cccdcb, #fefffc);
+      height: 590px;
+      background-size: cover;
+      
+}
+/* Style for the Eye Button */
+#showPasswordButton {
+    background: transparent;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Style for the Eye Icon */
+#eyeIcon {
+    color: #333; /* Eye icon color */
+}
+
+/* Style for the Eye Icon when password is visible */
+#eyeIcon.visible {
+    color: #007bff; /* Change to your desired color when password is visible */
+}
